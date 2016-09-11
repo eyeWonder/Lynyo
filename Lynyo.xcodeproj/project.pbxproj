@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE06759F1D84EC3E0084DB51 /* TruckTypeEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06759E1D84EC3E0084DB51 /* TruckTypeEnum.m */; };
+		CE0675A21D84EEDD0084DB51 /* CDDrive+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0675A11D84EEDD0084DB51 /* CDDrive+CoreDataProperties.m */; };
+		CE5764B81D85B0E400000B0C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5764B71D85B0E400000B0C /* MapKit.framework */; };
+		CE5764BB1D85B36E00000B0C /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5764BA1D85B36E00000B0C /* XMLParser.m */; };
+		CE5ACFEE1D8505780042DE21 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5ACFED1D8505780042DE21 /* NMAKit.framework */; };
+		CE5ACFEF1D8505780042DE21 /* NMAKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE5ACFED1D8505780042DE21 /* NMAKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE5ACFF71D85093A0042DE21 /* CDWayPoint+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5ACFF41D85093A0042DE21 /* CDWayPoint+CoreDataProperties.m */; };
+		CE5ACFF81D85093A0042DE21 /* CDWayPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5ACFF61D85093A0042DE21 /* CDWayPoint.m */; };
+		CE6B64FA1D84FBF20066A71F /* MessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B64F91D84FBF20066A71F /* MessageBox.m */; };
+		CE6B65001D84FD840066A71F /* HereHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B64FF1D84FD840066A71F /* HereHelper.m */; };
+		CECF347B1D84BAEB003FE518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF347A1D84BAEB003FE518 /* main.m */; };
+		CECF347E1D84BAEB003FE518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF347D1D84BAEB003FE518 /* AppDelegate.m */; };
+		CECF34811D84BAEB003FE518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34801D84BAEB003FE518 /* ViewController.m */; };
+		CECF34841D84BAEB003FE518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF34821D84BAEB003FE518 /* Main.storyboard */; };
+		CECF34871D84BAEB003FE518 /* Lynyo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CECF34851D84BAEB003FE518 /* Lynyo.xcdatamodeld */; };
+		CECF34891D84BAEB003FE518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECF34881D84BAEB003FE518 /* Assets.xcassets */; };
+		CECF348C1D84BAEB003FE518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF348A1D84BAEB003FE518 /* LaunchScreen.storyboard */; };
+		CECF34981D84C05D003FE518 /* CreateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34971D84C05D003FE518 /* CreateTableViewController.m */; };
+		CECF349E1D84C244003FE518 /* CreateLanePointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF349D1D84C244003FE518 /* CreateLanePointCell.xib */; };
+		CECF34A11D84C2E7003FE518 /* CreateLanePointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34A01D84C2E7003FE518 /* CreateLanePointCell.m */; };
+		CECF34A71D84C492003FE518 /* CDLanePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34A41D84C491003FE518 /* CDLanePoint.m */; };
+		CECF34A81D84C492003FE518 /* CDLanePoint+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34A61D84C492003FE518 /* CDLanePoint+CoreDataProperties.m */; };
+		CECF34AB1D84C49A003FE518 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34AA1D84C49A003FE518 /* CoreDataManager.m */; };
+		CECF34B01D84C59B003FE518 /* CDDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34AD1D84C59B003FE518 /* CDDrive.m */; };
+		CECF34B81D84C7E9003FE518 /* LocalSettingsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34B71D84C7E9003FE518 /* LocalSettingsStorage.m */; };
+		CECF34BD1D84D498003FE518 /* AddLanePointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF34BC1D84D498003FE518 /* AddLanePointCell.xib */; };
+		CECF34C01D84D4A4003FE518 /* AddLanePointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF34BF1D84D4A4003FE518 /* AddLanePointCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE5ACFEB1D8500B20042DE21 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE5ACFEF1D8505780042DE21 /* NMAKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE06759D1D84EC3E0084DB51 /* TruckTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TruckTypeEnum.h; sourceTree = "<group>"; };
+		CE06759E1D84EC3E0084DB51 /* TruckTypeEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TruckTypeEnum.m; sourceTree = "<group>"; };
+		CE0675A01D84EEDD0084DB51 /* CDDrive+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDDrive+CoreDataProperties.h"; path = "CDObjects/CDDrive+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE0675A11D84EEDD0084DB51 /* CDDrive+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CDDrive+CoreDataProperties.m"; path = "CDObjects/CDDrive+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE5764B71D85B0E400000B0C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE5764B91D85B36E00000B0C /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		CE5764BA1D85B36E00000B0C /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		CE5ACFED1D8505780042DE21 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMAKit.framework; sourceTree = "<group>"; };
+		CE5ACFF31D85093A0042DE21 /* CDWayPoint+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDWayPoint+CoreDataProperties.h"; path = "CDObjects/CDWayPoint+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE5ACFF41D85093A0042DE21 /* CDWayPoint+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CDWayPoint+CoreDataProperties.m"; path = "CDObjects/CDWayPoint+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE5ACFF51D85093A0042DE21 /* CDWayPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDWayPoint.h; path = CDObjects/CDWayPoint.h; sourceTree = "<group>"; };
+		CE5ACFF61D85093A0042DE21 /* CDWayPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDWayPoint.m; path = CDObjects/CDWayPoint.m; sourceTree = "<group>"; };
+		CE6B64F81D84FBF20066A71F /* MessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBox.h; sourceTree = "<group>"; };
+		CE6B64F91D84FBF20066A71F /* MessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBox.m; sourceTree = "<group>"; };
+		CE6B64FE1D84FD840066A71F /* HereHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HereHelper.h; sourceTree = "<group>"; };
+		CE6B64FF1D84FD840066A71F /* HereHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HereHelper.m; sourceTree = "<group>"; };
+		CECF34761D84BAEB003FE518 /* Lynyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECF347A1D84BAEB003FE518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECF347C1D84BAEB003FE518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECF347D1D84BAEB003FE518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECF347F1D84BAEB003FE518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CECF34801D84BAEB003FE518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CECF34831D84BAEB003FE518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECF34861D84BAEB003FE518 /* Lynyo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lynyo.xcdatamodel; sourceTree = "<group>"; };
+		CECF34881D84BAEB003FE518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECF348B1D84BAEB003FE518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECF348D1D84BAEB003FE518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECF34961D84C05D003FE518 /* CreateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTableViewController.h; sourceTree = "<group>"; };
+		CECF34971D84C05D003FE518 /* CreateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTableViewController.m; sourceTree = "<group>"; };
+		CECF349D1D84C244003FE518 /* CreateLanePointCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateLanePointCell.xib; sourceTree = "<group>"; };
+		CECF349F1D84C2E7003FE518 /* CreateLanePointCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateLanePointCell.h; sourceTree = "<group>"; };
+		CECF34A01D84C2E7003FE518 /* CreateLanePointCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateLanePointCell.m; sourceTree = "<group>"; };
+		CECF34A31D84C491003FE518 /* CDLanePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLanePoint.h; path = CDObjects/CDLanePoint.h; sourceTree = "<group>"; };
+		CECF34A41D84C491003FE518 /* CDLanePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDLanePoint.m; path = CDObjects/CDLanePoint.m; sourceTree = "<group>"; };
+		CECF34A51D84C491003FE518 /* CDLanePoint+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDLanePoint+CoreDataProperties.h"; path = "CDObjects/CDLanePoint+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CECF34A61D84C492003FE518 /* CDLanePoint+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CDLanePoint+CoreDataProperties.m"; path = "CDObjects/CDLanePoint+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CECF34A91D84C49A003FE518 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		CECF34AA1D84C49A003FE518 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		CECF34AC1D84C59B003FE518 /* CDDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDDrive.h; path = CDObjects/CDDrive.h; sourceTree = "<group>"; };
+		CECF34AD1D84C59B003FE518 /* CDDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDDrive.m; path = CDObjects/CDDrive.m; sourceTree = "<group>"; };
+		CECF34B61D84C7E9003FE518 /* LocalSettingsStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalSettingsStorage.h; sourceTree = "<group>"; };
+		CECF34B71D84C7E9003FE518 /* LocalSettingsStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalSettingsStorage.m; sourceTree = "<group>"; };
+		CECF34B91D84C7FE003FE518 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CECF34BC1D84D498003FE518 /* AddLanePointCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLanePointCell.xib; sourceTree = "<group>"; };
+		CECF34BE1D84D4A4003FE518 /* AddLanePointCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLanePointCell.h; sourceTree = "<group>"; };
+		CECF34BF1D84D4A4003FE518 /* AddLanePointCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLanePointCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECF34731D84BAEB003FE518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5764B81D85B0E400000B0C /* MapKit.framework in Frameworks */,
+				CE5ACFEE1D8505780042DE21 /* NMAKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE06759C1D84EBF60084DB51 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CE06759D1D84EC3E0084DB51 /* TruckTypeEnum.h */,
+				CE06759E1D84EC3E0084DB51 /* TruckTypeEnum.m */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		CE5ACFE41D84FF830042DE21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5764B71D85B0E400000B0C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECF346D1D84BAEB003FE518 = {
+			isa = PBXGroup;
+			children = (
+				CE5ACFED1D8505780042DE21 /* NMAKit.framework */,
+				CE5ACFE41D84FF830042DE21 /* Frameworks */,
+				CECF34781D84BAEB003FE518 /* Lynyo */,
+				CECF34771D84BAEB003FE518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECF34771D84BAEB003FE518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECF34761D84BAEB003FE518 /* Lynyo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECF34781D84BAEB003FE518 /* Lynyo */ = {
+			isa = PBXGroup;
+			children = (
+				CE06759C1D84EBF60084DB51 /* Enums */,
+				CECF34B91D84C7FE003FE518 /* Constants.h */,
+				CECF34B51D84C7D9003FE518 /* Libs */,
+				CECF347C1D84BAEB003FE518 /* AppDelegate.h */,
+				CECF347D1D84BAEB003FE518 /* AppDelegate.m */,
+				CECF34881D84BAEB003FE518 /* Assets.xcassets */,
+				CECF34A21D84C48A003FE518 /* CoreData */,
+				CECF34961D84C05D003FE518 /* CreateTableViewController.h */,
+				CECF34971D84C05D003FE518 /* CreateTableViewController.m */,
+				CECF348D1D84BAEB003FE518 /* Info.plist */,
+				CECF349C1D84C20C003FE518 /* LanePoints */,
+				CECF348A1D84BAEB003FE518 /* LaunchScreen.storyboard */,
+				CECF34851D84BAEB003FE518 /* Lynyo.xcdatamodeld */,
+				CECF34821D84BAEB003FE518 /* Main.storyboard */,
+				CECF34791D84BAEB003FE518 /* Supporting Files */,
+				CECF347F1D84BAEB003FE518 /* ViewController.h */,
+				CECF34801D84BAEB003FE518 /* ViewController.m */,
+			);
+			path = Lynyo;
+			sourceTree = "<group>";
+		};
+		CECF34791D84BAEB003FE518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECF347A1D84BAEB003FE518 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECF349C1D84C20C003FE518 /* LanePoints */ = {
+			isa = PBXGroup;
+			children = (
+				CECF349D1D84C244003FE518 /* CreateLanePointCell.xib */,
+				CECF349F1D84C2E7003FE518 /* CreateLanePointCell.h */,
+				CECF34A01D84C2E7003FE518 /* CreateLanePointCell.m */,
+				CECF34BC1D84D498003FE518 /* AddLanePointCell.xib */,
+				CECF34BE1D84D4A4003FE518 /* AddLanePointCell.h */,
+				CECF34BF1D84D4A4003FE518 /* AddLanePointCell.m */,
+			);
+			name = LanePoints;
+			sourceTree = "<group>";
+		};
+		CECF34A21D84C48A003FE518 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE5ACFF31D85093A0042DE21 /* CDWayPoint+CoreDataProperties.h */,
+				CE5ACFF41D85093A0042DE21 /* CDWayPoint+CoreDataProperties.m */,
+				CE5ACFF51D85093A0042DE21 /* CDWayPoint.h */,
+				CE5ACFF61D85093A0042DE21 /* CDWayPoint.m */,
+				CE0675A01D84EEDD0084DB51 /* CDDrive+CoreDataProperties.h */,
+				CE0675A11D84EEDD0084DB51 /* CDDrive+CoreDataProperties.m */,
+				CECF34AC1D84C59B003FE518 /* CDDrive.h */,
+				CECF34AD1D84C59B003FE518 /* CDDrive.m */,
+				CECF34A91D84C49A003FE518 /* CoreDataManager.h */,
+				CECF34AA1D84C49A003FE518 /* CoreDataManager.m */,
+				CECF34A31D84C491003FE518 /* CDLanePoint.h */,
+				CECF34A41D84C491003FE518 /* CDLanePoint.m */,
+				CECF34A51D84C491003FE518 /* CDLanePoint+CoreDataProperties.h */,
+				CECF34A61D84C492003FE518 /* CDLanePoint+CoreDataProperties.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		CECF34B51D84C7D9003FE518 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B64F81D84FBF20066A71F /* MessageBox.h */,
+				CE6B64F91D84FBF20066A71F /* MessageBox.m */,
+				CECF34B61D84C7E9003FE518 /* LocalSettingsStorage.h */,
+				CECF34B71D84C7E9003FE518 /* LocalSettingsStorage.m */,
+				CE6B64FE1D84FD840066A71F /* HereHelper.h */,
+				CE6B64FF1D84FD840066A71F /* HereHelper.m */,
+				CE5764B91D85B36E00000B0C /* XMLParser.h */,
+				CE5764BA1D85B36E00000B0C /* XMLParser.m */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECF34751D84BAEB003FE518 /* Lynyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECF34901D84BAEB003FE518 /* Build configuration list for PBXNativeTarget "Lynyo" */;
+			buildPhases = (
+				CECF34721D84BAEB003FE518 /* Sources */,
+				CECF34731D84BAEB003FE518 /* Frameworks */,
+				CECF34741D84BAEB003FE518 /* Resources */,
+				CE5ACFEB1D8500B20042DE21 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lynyo;
+			productName = Lynyo;
+			productReference = CECF34761D84BAEB003FE518 /* Lynyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECF346E1D84BAEB003FE518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ivango;
+				TargetAttributes = {
+					CECF34751D84BAEB003FE518 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CECF34711D84BAEB003FE518 /* Build configuration list for PBXProject "Lynyo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECF346D1D84BAEB003FE518;
+			productRefGroup = CECF34771D84BAEB003FE518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECF34751D84BAEB003FE518 /* Lynyo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECF34741D84BAEB003FE518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECF348C1D84BAEB003FE518 /* LaunchScreen.storyboard in Resources */,
+				CECF34BD1D84D498003FE518 /* AddLanePointCell.xib in Resources */,
+				CECF349E1D84C244003FE518 /* CreateLanePointCell.xib in Resources */,
+				CECF34891D84BAEB003FE518 /* Assets.xcassets in Resources */,
+				CECF34841D84BAEB003FE518 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECF34721D84BAEB003FE518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECF34811D84BAEB003FE518 /* ViewController.m in Sources */,
+				CE06759F1D84EC3E0084DB51 /* TruckTypeEnum.m in Sources */,
+				CECF34871D84BAEB003FE518 /* Lynyo.xcdatamodeld in Sources */,
+				CE0675A21D84EEDD0084DB51 /* CDDrive+CoreDataProperties.m in Sources */,
+				CECF34C01D84D4A4003FE518 /* AddLanePointCell.m in Sources */,
+				CE6B64FA1D84FBF20066A71F /* MessageBox.m in Sources */,
+				CECF34A71D84C492003FE518 /* CDLanePoint.m in Sources */,
+				CE5ACFF71D85093A0042DE21 /* CDWayPoint+CoreDataProperties.m in Sources */,
+				CE5ACFF81D85093A0042DE21 /* CDWayPoint.m in Sources */,
+				CECF34B81D84C7E9003FE518 /* LocalSettingsStorage.m in Sources */,
+				CECF34A81D84C492003FE518 /* CDLanePoint+CoreDataProperties.m in Sources */,
+				CECF34AB1D84C49A003FE518 /* CoreDataManager.m in Sources */,
+				CECF347E1D84BAEB003FE518 /* AppDelegate.m in Sources */,
+				CECF347B1D84BAEB003FE518 /* main.m in Sources */,
+				CE5764BB1D85B36E00000B0C /* XMLParser.m in Sources */,
+				CE6B65001D84FD840066A71F /* HereHelper.m in Sources */,
+				CECF34B01D84C59B003FE518 /* CDDrive.m in Sources */,
+				CECF34A11D84C2E7003FE518 /* CreateLanePointCell.m in Sources */,
+				CECF34981D84C05D003FE518 /* CreateTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECF34821D84BAEB003FE518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECF34831D84BAEB003FE518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECF348A1D84BAEB003FE518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECF348B1D84BAEB003FE518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECF348E1D84BAEB003FE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECF348F1D84BAEB003FE518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECF34911D84BAEB003FE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Lynyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lynyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECF34921D84BAEB003FE518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Lynyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lynyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECF34711D84BAEB003FE518 /* Build configuration list for PBXProject "Lynyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECF348E1D84BAEB003FE518 /* Debug */,
+				CECF348F1D84BAEB003FE518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECF34901D84BAEB003FE518 /* Build configuration list for PBXNativeTarget "Lynyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECF34911D84BAEB003FE518 /* Debug */,
+				CECF34921D84BAEB003FE518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CECF34851D84BAEB003FE518 /* Lynyo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CECF34861D84BAEB003FE518 /* Lynyo.xcdatamodel */,
+			);
+			currentVersion = CECF34861D84BAEB003FE518 /* Lynyo.xcdatamodel */;
+			path = Lynyo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CECF346E1D84BAEB003FE518 /* Project object */;
+}

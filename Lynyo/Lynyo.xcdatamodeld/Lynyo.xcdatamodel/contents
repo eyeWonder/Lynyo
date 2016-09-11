@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="CDDrive" representedClassName="CDDrive" syncable="YES">
+        <attribute name="hoursLeft" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isStarted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="truckType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="lanePoints" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CDLanePoint" syncable="YES"/>
+    </entity>
+    <entity name="CDLanePoint" representedClassName="CDLanePoint" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="CDWayPoint" representedClassName="CDWayPoint" syncable="YES">
+        <attribute name="arrivalTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stayTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="stopType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="toDistance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="toFuelPrice" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="toFuleAmount" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="toTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="drive" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDDrive" syncable="YES"/>
+        <relationship name="lanePoint" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDLanePoint" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDDrive" positionX="-54" positionY="18" width="128" height="120"/>
+        <element name="CDLanePoint" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="CDWayPoint" positionX="-63" positionY="45" width="128" height="180"/>
+    </elements>
+</model>
